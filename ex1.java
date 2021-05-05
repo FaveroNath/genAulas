@@ -12,7 +12,7 @@ public class ex1 {
 		b = in.nextInt();
 		System.out.println("Digite um valor: ");
 		c = in.nextInt();
-		
+
 		if(maxAns < a) maxAns = a;
 		if(maxAns < b) maxAns = b;
 		if(maxAns < c) maxAns = c;
