@@ -3,6 +3,7 @@ import java.util.*;
 
 public class ex1 {
 
+
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int a, b, c, maxAns = -1000000000;
