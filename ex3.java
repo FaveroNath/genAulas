@@ -3,7 +3,6 @@ package ProjetoJava;
 import java.util.*;
 
 public class ex3 {
-
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		int idade;
