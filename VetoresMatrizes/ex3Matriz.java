@@ -7,7 +7,7 @@ public class ex3Matriz {
 		int[][] m = new int[3][3];
 		int cnt = 0;
 		
-		/*criei um veotor com o tamanho máximo para armazenar os valores maiores que 10
+		/*criei um vetor com o tamanho máximo para armazenar os valores maiores que 10
 		 como a matriz é 3x3 só cabe 9 valores */
 		
 		int[] a = new int[10];
