@@ -14,12 +14,12 @@ public class ex3Matriz {
 		
 		for(int i = 0; i < 3; i++) {
 			for(int j = 0; j < 3; j++) {
-				System.out.println("Digite um valor para a matriz:");
+				System.out.printf("Digite um valor para a matriz[%d][%d]:",(i+1),(j+1));
 				m[i][j] = in.nextInt();
 				if(m[i][j] > 10) a[cnt++] = m[i][j];	
 			}
 		}
-		System.out.println("Quantidade de valores mairoes que 10: "+cnt);
+		System.out.println("Quantidade de valores maiores que 10: "+cnt);
 		System.out.print("Valores maiores que 10: ");
 		for(int i = 0; i < cnt; i++) System.out.print(a[i]+" ");
 	}
