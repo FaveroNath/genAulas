@@ -7,7 +7,7 @@ public class TestaAnimal {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
 		
-		Cachorro cachorro1 = new Cachorro("Cachorro (apelido: Au Au)", 5, "Bolinha axul",false);
+		Cachorro cachorro1 = new Cachorro("Cachorro (apelido: Au Au)", 5, "Bolinha azul",false);
 		Cavalo cavalo1 = new Cavalo("Cavalo (Apelido: pocotó)",8);
 		Preguica preguica1 = new Preguica("Preguiça (Apelido: preguicinha)",12);
 		
