@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class List {
 
 	public static void main(String[] args) {
-Scanner in = new Scanner(System.in);
+		Scanner in = new Scanner(System.in);
 		
 		//Collection - List
 		Collection<String> nomes = new ArrayList();
@@ -20,7 +20,7 @@ Scanner in = new Scanner(System.in);
 		nomes.add("La");
 		
 		//Junções de Listas
-		Collection<String> nome1 = Arrays.asList("Antonio","Edson");
+		Collection<String> nome1 = Arrays.asList("Claudio","Mariana");
 		nomes.addAll(nome1);
 		System.out.print("Lista de nomes: "+nomes);
 		for(String i: nomes) System.out.println(i);
